@@ -1,0 +1,67 @@
+body{
+    margin: 0;
+        /* background-color:rgba(255, 182, 193, 0.658); */
+        background-image: url('/roz2.jpg');
+        background-size:cover ;
+        background-position: center;
+}
+
+
+#gameContainer{
+    text-align: center;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    background-color:rgba(255, 182, 193, 0.792);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+    margin-left: 35%;
+    margin-top: 30px;
+    border-radius: 15px;
+    border: 2px white solid;
+}
+
+h1{
+    margin-bottom: 100px;
+    margin-top: 50px;
+    padding:10px;
+    border: 3px solid rgba(117, 85, 149, 0.974);
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px;
+    background-color:lightcoral;
+    display: inline-block;
+
+}
+.cell{
+    border: 2px solid;
+    width: 75px;
+    height: 75px;
+    box-shadow: 0 0 0 1px;
+    line-height: 80px;
+    font-size: 55px;
+    cursor: pointer;
+    background-color: rgba(240, 248, 255, 0.555);
+}
+
+#cellContainer{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 225px;
+    margin: auto;
+}
+
+#restartBtn{
+    background-color: rgb(232, 140, 140);
+    font-size: 20px;
+    font-family:Bradley Hand, cursive;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    padding: 5px;
+    border: 2px solid purple;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.material-symbols-outlined{
+    color: rgb(204, 5, 111);
+}
